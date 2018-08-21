@@ -43,6 +43,7 @@ document.getElementById("theSurprise").style.visibility = "hidden";
 
 function Surprise(){
   document.getElementById("theSurprise").style.visibility = "visible";
+  document.getElementById("imglinkbox").innerHTML = "Sorry, not operational."
   var elem = document.getElementById("theSurprise");
   var pos = 0;
   var pos1 = 210;
